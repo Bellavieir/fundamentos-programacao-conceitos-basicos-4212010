@@ -6,6 +6,8 @@ Este é o repositório do curso `Fundamentos de Programação: Conceitos Básico
 
 Confira o arquivo Readme na ramificação principal para obter instruções e informações atualizadas. 
 
+A melhor maneira de aprender uma linguagem é usá-la na prática. É por isso que este curso está integrado ao GitHub Codespaces, um ambiente de desenvolvimento instantâneo na nuvem que oferece toda a funcionalidade de seu IDE favorito sem a necessidade de qualquer configuração do dispositivo local. Com o Codespaces, você pode praticar em qualquer dispositivo, a qualquer momento - tudo isso sem precisar instalar nenhuma outra ferramenta. 
+
 DESCRIÇÃO DO CURSO 
 
 ## Instruções 
