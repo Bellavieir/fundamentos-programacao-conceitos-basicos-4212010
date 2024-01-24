@@ -7,9 +7,10 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-        "github.copilot",
-        "github.copilot-chat"
-      ]
+				        "github.copilot",
+				        "github.copilot-chat",
+					"formulahendry.code-runner"
+				      ]
 		}
 	},
 	"onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc"
