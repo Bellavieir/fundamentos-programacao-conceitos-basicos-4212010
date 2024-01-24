@@ -21,7 +21,7 @@ Todos os arquivos estarão lá organizados por capítulo e video.
 
 Confira o vídeo deste curso "Como usar o GitHub Codespaces" para saber mais.
 
-### Instrutor(a) 
+### Instrutor 
 
 **Lucas Longo** 
 
