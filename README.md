@@ -4,12 +4,13 @@ Este é o repositório do curso `Fundamentos de Programação: Conceitos Básico
 
 ![Título completo do curso][lil-thumbnail-url]  
 
-Confira o arquivo Readme na ramificação principal para obter instruções e informações atualizadas. 
+DESCRIÇÃO DO CURSO 
+
+Descubra o mundo da programação com nosso curso introdutório! Usando JavaScript, você vai mergulhar na sintaxe essencial de uma linguagem de programação, criando e executando sua primeira aplicação. Explore condições, loops, variáveis e expressões, entenda diferentes tipos de dados e como eles impactam a memória. 
 
 A melhor maneira de aprender uma linguagem é usá-la na prática. É por isso que este curso está integrado ao GitHub Codespaces, um ambiente de desenvolvimento instantâneo na nuvem que oferece toda a funcionalidade de seu IDE favorito sem a necessidade de qualquer configuração do dispositivo local. Com o Codespaces, você pode praticar em qualquer dispositivo, a qualquer momento - tudo isso sem precisar instalar nenhuma outra ferramenta. 
 
-DESCRIÇÃO DO CURSO 
-
+GITHUB CODESPACES
 
 Este curso está integrado ao GitHub Codespaces, um ambiente desenvolvedor instantâneo na nuvem que oferece toda a funcionalidade do seu IDE favorito sem a necessidade de configurar o dispositivo local. Com o Codespaces, você pode praticar em qualquer dispositivo, a qualquer momento - tudo isso sem precisar instalar nenhuma outra ferramenta. 
 
