@@ -1,34 +1,25 @@
-var variavelGlobal = "global";
-
-console.log(variavelGlobal);
-
-testarGlobal();
-console.log(variavelGlobal);
-
-testarLet();
+function testarVar () {
+    var largura = 10;
+    if (true) { 
+        var largura = 30;
+        console.log(largura); 
+    }
+    console.log(largura); 
+}
 
 testarVar();
 
-function testarGlobal() {
-    variavelGlobal = "global, dentro da função";
-    
-}
-
 function testarLet() {
-    let letTeste = "Let da função";
-    if (variavelGlobal == "global") {
-        let letTeste = "Let da função, dentro do bloco";
-        console.log(letTeste);
+    var largura = 10;
+    if (true) { 
+        let largura = 30;
+        console.log(largura);
     }
-    console.log(letTeste); 
+    console.log(largura);
 }
 
-function testarVar() {
-    var varTeste = "Variável da função";
-    if (variavelGlobal == "global") {
-        var varTeste = "Variável da função, dentro do bloco";
-        console.log(varTeste); 
-    }
-    console.log(varTeste); 
-}
+testarLet();
 
+const umaConstante = 40;
+console.log(umaConstante);
+// largura = 30; // Erro!
