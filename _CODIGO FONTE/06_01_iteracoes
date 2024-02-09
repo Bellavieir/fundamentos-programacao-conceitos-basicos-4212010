@@ -10,15 +10,13 @@ lerArquivo('arquivo4.txt');
 let numeroArquivos = 10;
 let contador = 0;
 
-// while (contador < numeroArquivos) {
-//     let nomeArquivo = `arquivo${contador}.txt`;
-//     lerArquivo(nomeArquivo);
-//     contador++;
-// }
+while (contador < numeroArquivos) {
+    let nomeArquivo = `arquivoWhile${contador}.txt`;
+    lerArquivo(nomeArquivo);
+    contador++;
+}
 
-console.log('Fim da leitura dos arquivos');
-
-for (let contador = 0; contador < numeroArquivos; contador++) {
-    let nomeArquivo = `arquivo${contador}.txt`;
+for (let i = 0; i < numeroArquivos; i++) {
+    let nomeArquivo = `arquivoFor${i}.txt`;
     lerArquivo(nomeArquivo);
 }
