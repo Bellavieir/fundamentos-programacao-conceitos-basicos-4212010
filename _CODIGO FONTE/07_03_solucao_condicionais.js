@@ -30,3 +30,27 @@ for (let i = 0; i < animais.length; i++) {
 // Urso : mamífero
 // Aguia : ave
 // Cobra : desconhecido
+
+// SWITCH 
+for (let i = 0; i < animais.length; i++) {
+
+    let animal = animais[i];
+    let tipo = "";
+
+    switch (animal) {
+        case "Arara", "Aguia":
+            tipo = "ave";
+            break;
+        case "Cachorro", "Gato", "Elefante", "Urso":
+            tipo = "mamífero";
+            break;
+        case "Sardinha", "Tubarão":
+            tipo = "peixe";
+            break;
+        default:
+            tipo = "desconhecido";
+            break;
+    }
+
+    console.log(`${animal} : ${tipo}`);
+}

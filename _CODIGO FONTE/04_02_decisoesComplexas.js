@@ -1,6 +1,8 @@
 var semaforo = "amarelo";
 
-// Versão com dois IFs
+// Versão com IFs
+console.log("Versão com dois IFs");
+
 if (semaforo == "verde") {
     console.log("Pode passar");
 }
@@ -9,6 +11,8 @@ if (semaforo == "vermelho") {
 }
 
 // Versão com IF e ELSE
+console.log("Versão com IF e ELSE");
+
 if (semaforo == "verde") {
     console.log("Pode passar");
 } else {
@@ -16,6 +20,8 @@ if (semaforo == "verde") {
 }
 
 // Versão com IF, ELSE IF e ELSE
+console.log("Versão com IF, ELSE IF e ELSE");
+
 if (semaforo == "verde") {
     console.log("Pode passar");
 } else if (semaforo == "amarelo") {
@@ -26,7 +32,10 @@ if (semaforo == "verde") {
     console.log("Semáforo com problema");
 }
 
+
 // Versão com 3 IFs
+console.log("Versão com 3 IFs");
+
 if (semaforo == "verde") {
     console.log("Pode passar");
 } 
@@ -41,6 +50,8 @@ if (semaforo != "verde" && semaforo != "amarelo" && semaforo != "vermelho") {
 }
 
 // Versão com SWITCH
+console.log("Versão com SWITCH");
+
 switch (semaforo) {
     case "verde":
         console.log("Pode passar");

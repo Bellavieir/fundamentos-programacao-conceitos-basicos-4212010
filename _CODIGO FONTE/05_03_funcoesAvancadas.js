@@ -8,7 +8,7 @@ function cargaRestanteBateria() {
     var tamanhoBateria = 60;
     var nivelUtilizado = 50;
     var restante = tamanhoBateria - nivelUtilizado;
-    console.log(restante);
+    console.log(`restante: ${restante}`);
     return restante;
 }
 
