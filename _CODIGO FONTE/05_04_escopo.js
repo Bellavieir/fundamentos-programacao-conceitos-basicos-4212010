@@ -23,3 +23,5 @@ testarLet();
 const umaConstante = 40;
 console.log(`umaConstante: ${umaConstante}`);
 // largura = 30; // Erro!
+
+
