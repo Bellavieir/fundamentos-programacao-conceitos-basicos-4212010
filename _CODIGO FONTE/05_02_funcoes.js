@@ -1,21 +1,18 @@
-ligarCarro(); 
-
-function ligarCarro() {
-    console.log("O carro está ligado e pronto para partir!");
+function ligarCarro() { 
+    console.log("Carro ligado");
 }
 
-acelerar(5);
-acelerar(-1);
-
-function acelerar(quantidade) {
-    console.log(`Acelerando com ${quantidade} de potência.`);
+function aceleraCarro(quantidade) {
+    console.log(`Acelerando o carro em ${quantidade} km/h`);
 }
 
-ajustarBanco("motorista", "reclinado");
-ajustarBanco("passageiro", "vertical");
-ajustarBanco("traseiro", "fechado");
+ligarCarro();
+aceleraCarro(50);
+aceleraCarro(100);
 
 function ajustarBanco(banco, posicao) {
-    console.log(`Ajustando o banco ${banco} para a posição ${posicao}.`);
+    console.log(`Ajustando o banco ${banco} na posição ${posicao}`);
 }
 
+ajustarBanco("motorista", "para frente");
+ajustarBanco("passageiro", "para trás");

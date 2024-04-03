@@ -1,25 +1,20 @@
-// cargaRestanteBateria();
-
-var carga = cargaRestanteBateria();
-var mensagem = `Você ainda tem ${carga} de carga na bateria.`;
-console.log(mensagem);
-
 function cargaRestanteBateria() { 
-    var tamanhoBateria = 60;
-    var nivelUtilizado = 50;
-    var restante = tamanhoBateria - nivelUtilizado;
-    console.log(`restante: ${restante}`);
-    return restante;
+    var tamanhoBateria = 100;
+    var cargaAtual = 50;
+    var cargaRestante = tamanhoBateria - cargaAtual;
+    return cargaRestante;
 }
 
+var cargaRestante = cargaRestanteBateria();
+console.log(`A carga restante da bateria é de ${cargaRestante}%`);
 
-var porcentagemDesejada = 95;
-var tempoRestante = tempoParaCarregarBateriaAte(porcentagemDesejada);
-console.log(`Faltam ${tempoRestante} minutos para carregar.`);
-
-function tempoParaCarregarBateriaAte(porcentagem) {
+function tempoParaCarregarBateria(porcentagem) {
     var carga = cargaRestanteBateria();
     var cargaNecessaria = porcentagem - carga;
     var tempo = cargaNecessaria * 2;
     return tempo;
 }
+
+var porcentagem = 80;
+var tempoParaCarregar = tempoParaCarregarBateria(porcentagem);
+console.log(`O tempo necessário para carregar a bateria até ${porcentagem}% é de ${tempoParaCarregar} minutos`);
