@@ -1,24 +1,24 @@
-// DESAFIO: criar um programa que imprimo o tipo de cada animal
+    // DESAFIO: criar um programa que imprimo o tipo de cada animal
 let animais = ["Arara", "Cachorro", "Gato", "Sardinha", "Elefante", "Tubarão", "Urso", "Aguia", "Cobra"];
 
 // SEU CÓDIGO VAI AQUI
-for (let i = 0; i < animais.length; i++) {
+// for (let i = 0; i < animais.length; i++) {
 
-    let animal = animais[i];
-    let tipo = "";
+//     let animal = animais[i];
+//     let tipo = "";
 
-    if (animal === "Arara" || animal === "Aguia") {
-        tipo = "ave";
-    } else if (animal === "Cachorro" || animal === "Gato" || animal === "Elefante" || animal === "Urso") { 
-        tipo = "mamífero";
-    } else if (animal === "Sardinha" || animal === "Tubarão") {
-        tipo = "peixe";
-    } else { 
-        tipo = "desconhecido";
-    }
+//     if (animal === "Arara" || animal === "Aguia") {
+//         tipo = "ave";
+//     } else if (animal === "Cachorro" || animal === "Gato" || animal === "Elefante" || animal === "Urso") { 
+//         tipo = "mamífero";
+//     } else if (animal === "Sardinha" || animal === "Tubarão") {
+//         tipo = "peixe";
+//     } else { 
+//         tipo = "desconhecido";
+//     }
 
-    console.log(`${animal} : ${tipo}`);
-}
+//     console.log(`${animal} : ${tipo}`);
+// }
 
 // RESPOSTA ESPERADA:
 // Arara : ave

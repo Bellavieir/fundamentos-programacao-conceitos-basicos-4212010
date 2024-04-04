@@ -1,5 +1,4 @@
-// DESAFIO: somar todos os números de um array
-let numeros = [1, 2, 3, 4];
+// DESAFIO: somar os números 1, 2, 3 e 4 e imprimir o resultado
 let soma = 0;
 
 // SEU CÓDIGO VAI AQUI
@@ -9,4 +8,4 @@ let soma = 0;
 console.log(`A soma dos números é ${soma}`);
 
 // RESPOSTA ESPERADA: 
-// A soma dos números é 9
+// A soma dos números é 10
